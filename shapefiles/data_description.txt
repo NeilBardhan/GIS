@@ -1,1 +1,3 @@
-Shapefile for Switzerland
+Shapefiles for Switzerland
+ADM0 - Entire country
+ADM1 - States/Provinces
