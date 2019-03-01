@@ -1,9 +1,16 @@
 # GIS
-GeoSpatial Analysis
+GeoSpatial Analysis in Python.
 
-Libraries
+__Libraries__
   * geopandas
   * shapely
   * fiona
   * pyproj
   * mplleaflet
+
+__Algorithms__
+
+ * Point in Polygon computation
+    * Brute Force
+    * Smart Grid
+ * Spatial Joins
