@@ -10,6 +10,7 @@ __Libraries__
 
 __Algorithms__
 
+ * Haversine Distance - Single Processing and Multi-processing approaches
  * Point in Polygon computation
     * Brute Force
     * Smart Grid
