@@ -3,7 +3,7 @@ import math
 import time
 
 def calc_distance(point1, point2):
-	R = 6371000 # earth radius in meters
+	R = 6373000 # earth radius in meters
 	lat1_r = point1[0] * (math.pi / 180)
 	lat2_r = point2[0] * (math.pi / 180)
 	x = (point1[1] - point2[1]) * (math.pi / 180)
