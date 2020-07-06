@@ -1,0 +1,39 @@
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+  <style>
+    #mapf09178df476d41bf8f84812ac9132934 {
+      height:100%;
+    }
+  </style> 
+</head>
+<body>
+  <div id="mapf09178df476d41bf8f84812ac9132934"></div>
+<script text="text/javascript">
+var map = L.map('mapf09178df476d41bf8f84812ac9132934');
+L.tileLayer(
+  "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  {maxZoom:19, attribution: '<a href="https://github.com/jwass/mplleaflet">mplleaflet</a> | Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'}).addTo(map);
+var gjData = {"type": "FeatureCollection", "features": []};
+
+if (gjData.features.length != 0) {
+  var gj = L.geoJson(gjData, {
+    style: function (feature) {
+      return feature.properties;
+    },
+    pointToLayer: function (feature, latlng) {
+      var icon = L.divIcon({'html': feature.properties.html, 
+        iconAnchor: [feature.properties.anchor_x, 
+                     feature.properties.anchor_y], 
+          className: 'empty'});  // What can I do about empty?
+      return L.marker(latlng, {icon: icon});
+    }
+  });
+  gj.addTo(map);
+  
+  map.fitBounds(gj.getBounds());
+} else {
+  map.setView([0, 0], 1);
+}
+</script>
+</body>
