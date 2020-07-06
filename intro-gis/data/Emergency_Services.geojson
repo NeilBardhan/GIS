@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Emergency_Services",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 4, "NAME": "The British Home", "PHONE": "020 8670 8261", "ADDRESS_1": "Crown Lane", "EASTING": 531665.58378, "NORTHING": 171071.707 }, "geometry": { "type": "Point", "coordinates": [ -0.107692276012846, 51.423370584443816 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "NAME": "St Thomas' Hospital", "PHONE": "020 7188 7188", "ADDRESS_1": "Westminster Bridge Road", "EASTING": 530690.26641100005, "NORTHING": 179520.01488 }, "geometry": { "type": "Point", "coordinates": [ -0.11859200065567, 51.4995183419949 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 1, "NAME": "King's College Hospital", "PHONE": " ", "ADDRESS_1": "Denmark Hill", "EASTING": 532480.50188400003, "NORTHING": 176018.08678899999 }, "geometry": { "type": "Point", "coordinates": [ -0.094128643302656, 51.467631882745621 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "NAME": "Lambeth Hospital", "PHONE": " ", "ADDRESS_1": "108 Landor Road", "EASTING": 530476.11632799997, "NORTHING": 175768.648988 }, "geometry": { "type": "Point", "coordinates": [ -0.123060098328635, 51.465855521938657 ] } }
+]
+}
