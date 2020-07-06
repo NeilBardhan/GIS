@@ -1,0 +1,11 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [[-0.093, 51.520], [0.0, 51.476]]
+  },
+  "properties": {
+    "name": "Barbican to Greenwich Observatory",
+    "length" : 8086
+  }
+}
