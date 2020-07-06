@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [[-0.093, 51.520], [0.0, 51.476], [-0.0165, 51.538]]
+  },
+  "properties": {
+    "names": ["Barbican Center", "Royal Observatory", "Olympic Stadium"]
+  }
+}

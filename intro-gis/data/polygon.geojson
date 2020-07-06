@@ -1,0 +1,19 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-0.093, 51.520],
+        [-0.0165, 51.538],
+        [0.0, 51.476],
+        [-0.093, 51.520]
+    ]
+  ]
+  },
+  "properties": {
+    "name": "Barbican-Olympic Stadium-Greenwich Observatory",
+    "perimeter" : 27222,
+    "area" : 3108869
+  }
+}

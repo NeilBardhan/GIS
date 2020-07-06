@@ -1,0 +1,13 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [[-0.093, 51.520], [0.0, 51.476]], 
+      [[-0.089, 51.525], [-0.0125, 51.53]]
+    ]
+  },
+  "properties": {
+    "lengths" : [8086, 6182]
+  }
+}

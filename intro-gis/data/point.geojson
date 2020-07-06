@@ -1,0 +1,12 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.093, 51.520]
+  },
+  "properties": {
+    "name": "Barbican Center",
+    "address" : "Silk St, Barbican, London EC2Y 8DS, United Kingdom",
+    "postal code" : "EC2Y 8DS"
+  }
+}
